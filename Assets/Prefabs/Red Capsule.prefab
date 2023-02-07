@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3916136130655823128}
   - component: {fileID: 8810242415751897186}
   - component: {fileID: -3228761505349703812}
-  - component: {fileID: -5437424883146298339}
-  - component: {fileID: 7066381557359827839}
+  - component: {fileID: 1773280935369030083}
+  - component: {fileID: 4893514818023178067}
   m_Layer: 0
   m_Name: Red Capsule
   m_TagString: Enemy
@@ -117,7 +117,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-5437424883146298339
+--- !u!114 &1773280935369030083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,19 +126,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2606969513368311621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b5dbba1098673409d2b6db2c94b15f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dfc525d78b0284469ee885313c31b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4893514818023178067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2606969513368311621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9733eee3e48514792ef76ebb7cb1fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
---- !u!114 &7066381557359827839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2606969513368311621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41664be597bcfd349b92894fae36d3ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

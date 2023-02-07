@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6805289440741760641}
   - component: {fileID: 5007211369248899798}
   - component: {fileID: -801660497386497492}
-  - component: {fileID: 8787491239073907440}
-  - component: {fileID: 1505246161214798108}
-  - component: {fileID: 1379617473986821585}
+  - component: {fileID: 7008370491722761455}
+  - component: {fileID: 2897179971872948070}
+  - component: {fileID: 6139651570097281703}
   m_Layer: 0
   m_Name: Green Capsule
   m_TagString: GoodGuy
@@ -118,7 +118,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &8787491239073907440
+--- !u!114 &7008370491722761455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,11 +127,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7548658526592491761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b5dbba1098673409d2b6db2c94b15f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a9733eee3e48514792ef76ebb7cb1fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
---- !u!114 &1505246161214798108
+--- !u!114 &2897179971872948070
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,10 +140,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7548658526592491761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41664be597bcfd349b92894fae36d3ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dfc525d78b0284469ee885313c31b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1379617473986821585
+--- !u!114 &6139651570097281703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,8 +152,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7548658526592491761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 492901f5003772c47aecaa2984e279b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 32df09cc029ef39488ac00f750de4454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   goodGuy: {fileID: 7548658526592491761}
-  goodGuyIsSaved: 0
+  isGoodGuySaved: 0

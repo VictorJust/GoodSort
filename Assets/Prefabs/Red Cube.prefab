@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7765931220655732253}
   - component: {fileID: 4556094598141378603}
   - component: {fileID: -4348486288693070326}
-  - component: {fileID: -2129866231891892372}
-  - component: {fileID: -1710999428618801873}
+  - component: {fileID: 6568721469970883749}
+  - component: {fileID: 2918175971222542100}
   m_Layer: 0
   m_Name: Red Cube
   m_TagString: Enemy
@@ -116,7 +116,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-2129866231891892372
+--- !u!114 &6568721469970883749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,19 +125,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 163982833191006215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b5dbba1098673409d2b6db2c94b15f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dfc525d78b0284469ee885313c31b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2918175971222542100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163982833191006215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9733eee3e48514792ef76ebb7cb1fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
---- !u!114 &-1710999428618801873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163982833191006215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41664be597bcfd349b92894fae36d3ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
